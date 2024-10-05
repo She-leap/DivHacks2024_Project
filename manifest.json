@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Website Notification Extension",
+  "version": "1.0",
+  "description": "Shows a notification after visiting a website",
+  "permissions": [
+    "notifications",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "bgv2.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
