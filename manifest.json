@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Website Notification Extension",
+  "name": "Unethical Labor Notification Extension",
   "version": "1.0",
-  "description": "Shows a notification after visiting a website",
+  "description": "Shows a notification after visiting a website if the company uses unethical labor.",
   "permissions": [
     "notifications",
     "webNavigation"
