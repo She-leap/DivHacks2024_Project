@@ -1,5 +1,5 @@
 // Keywords that likely indicate a clothing website
-const clothingKeywords = ["clothing", "apparel", "fashion", "wear", "footwear", "shoes", "outfits", "garments", "boutique", "style", "socks", "mens clothes", "womens clothes", "kids clothes"];
+const clothingKeywords = ["clothing", "apparel", "fashion", "wear", "footwear", "shoes", "outfits", "garments", "boutique", "style", "socks", "mens clothes", "womens clothes", "kids clothes", "shop mens", "shop womens", "shop kids"];
 
 // Function to check if the URL contains clothing-related keywords
 function isClothingWebsite(url) {
