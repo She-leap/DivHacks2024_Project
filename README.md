@@ -1,4 +1,4 @@
-2024 DivHacks Project.
+Stable Main Branch for 2024 DivHacks Hackathon Project.
 
 This chrome manifest v3 extension was built for DivHacks 2024. 
 
