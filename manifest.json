@@ -8,7 +8,7 @@
     "webNavigation"
   ],
   "background": {
-    "service_worker": "bgv2.js"
+    "service_worker": "bg2.js"
   },
   "icons": {
     "16": "icon16.png",
