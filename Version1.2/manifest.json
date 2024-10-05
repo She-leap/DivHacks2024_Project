@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Unethical Labor Notification Extension V1.2",
+  "version": "1.2",
+  "description": "Shows a notification after visiting a website if the company uses unethical labor.",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "sg3.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png", //this is only icon used atm.
+    "128": "icon128.png"
+  },
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ]
+}
