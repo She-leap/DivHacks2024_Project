@@ -1,5 +1,5 @@
 // Keywords that likely indicate a clothing website
-const clothingKeywords = ["clothing", "apparel", "fashion", "wear", "footwear", "shoes", "outfits", "garments", "boutique", "style"];
+const clothingKeywords = ["clothing", "apparel", "fashion", "wear", "footwear", "shoes", "outfits", "garments", "boutique", "style", "socks", "mens clothes", "womens clothes", "kids clothes"];
 
 // Function to check if the URL contains clothing-related keywords
 function isClothingWebsite(url) {
@@ -28,7 +28,7 @@ function checkPageContent(tabId) {
           type: "basic",
           iconUrl: "icon48.png", // Add an icon
           title: "Clothing Website Detected",
-          message: "You are visiting a clothing-related website!",
+          message: "You are visiting a clothing-related website! This company may use unethical labor.",
           priority: 2
         });
       }
@@ -46,7 +46,7 @@ chrome.webNavigation.onCompleted.addListener((details) => {
       type: "basic",
       iconUrl: "icon48.png",
       title: "Clothing Website Detected",
-      message: "You are visiting a clothing-related website!",
+      message: "You are visiting a clothing-related website! This company may use unethical labor.",
       priority: 2
     });
   } else {
